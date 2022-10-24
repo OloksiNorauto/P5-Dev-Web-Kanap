@@ -40,20 +40,6 @@ const displayProducts = function() {
     })
 }
 
-const banniereSection = document.querySelector("img.banniere");
-const divProduct = document.querySelector("div.limitedWidthBlock");
-
-banniereSection.addEventListener("mouseover", () => {
-    banniereSection.src = "https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif"
-})
-
-banniereSection.addEventListener("mouseout", () => {
-    banniereSection.src = "../images/banniere.png"
-})
-
-addEventListener("offline", () => {
-    divProduct.innerHTML = "<img src=front/images/1800.webp>"
-})
 
 
 displayProducts();
